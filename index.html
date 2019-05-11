@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    
+        <div id='nav'>
+            <div  id='logo'><img src='logo.jpg'/></div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    <div id='empty'></div>
+    
+<div id="text">
+<div class="column" id="111">
+        111 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam asperiores facilis natus laborum expedita quasi illo impedit recusandae modi suscipit, cumque enim? Eligendi tempore enim tempora asperiores totam sed et.</div>
+<div class="column"  id="222">
+        222 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam asperiores facilis natus laborum expedita quasi illo impedit recusandae modi suscipit, cumque enim? Eligendi tempore enim tempora asperiores totam sed et.</div>
+<div class="column"  id="333">
+        333 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam asperiores facilis natus laborum expedita quasi illo impedit recusandae modi suscipit, cumque enim? Eligendi tempore enim tempora asperiores totam sed et.</div>
+<div class="column"  id="444">
+        444 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam asperiores facilis natus laborum expedita quasi illo impedit recusandae modi suscipit, cumque enim? Eligendi tempore enim tempora asperiores totam sed et.</div>
+</div>
+    
+    
+    
+    
+    <style>
+    * { 
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box; 
+        background: red;
+        font-size: 45px}
+
+        
+        
+        #nav {background: gray;
+        }
+
+        #logo {background: white;
+        float: left;
+        margin: 0px}
+        
+        #nav li {
+           list-style-type: none;
+            display: inline-block;
+            float: right;
+            
+            }
+        #empty {clear: both}
+        
+        #text {
+            margin: 0 auto;
+            background-color: blue;
+            text-align: center;
+            
+            
+           
+        }
+        .column {
+        background-color: yellow;
+        margin: 10px auto;
+        width: 24%;
+        display: inline-block;
+        font-family: "Roboto";
+        font-size: 40px;
+        overflow: none;
+      
+      
+        }
+        
+        @media(max-width: 900px){
+            .column { 
+            display: block; 
+            clear: both;
+            width: 100%;
+            padding: 20px}
+            
+             #nav li {
+                display: block;
+                width: 100%;
+                text-align: center
+            }
+            
+          
+
+        }
+        </style>
+
+</body>
+</html>
