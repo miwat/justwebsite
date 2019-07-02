@@ -1,0 +1,58 @@
+   * { 
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box; 
+        background: red;
+        font-size: 45px}
+        
+        
+        #nav {background: gray;
+        }
+        #logo {background: white;
+        float: left;
+        margin: 0px}
+        
+        #nav li {
+           list-style-type: none;
+            display: inline-block;
+            float: right;
+            
+            }
+        #empty {clear: both}
+        
+        #text {
+            margin: 0 auto;
+            background-color: blue;
+            text-align: center;
+            
+            
+           
+        }
+        .column {
+        background-color: yellow;
+        margin: 10px auto;
+        width: 24%;
+        display: inline-block;
+        font-family: "Roboto";
+        font-size: 40px;
+        overflow: none;
+      
+      
+        }
+        
+        @media(max-width: 900px){
+            .column { 
+            display: block; 
+            clear: both;
+            width: 100%;
+            padding: 20px}
+            
+             #nav li {
+                display: block;
+                width: 100%;
+                text-align: center
+            }
+            
+          
+        }
+        
